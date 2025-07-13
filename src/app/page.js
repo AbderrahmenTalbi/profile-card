@@ -24,7 +24,7 @@ export default function Home() {
       <div className="w-24 h-24 mx-auto mb-6">
         <Image
           src="/images/nova.jpg"
-          alt="Jessica Randall"
+          alt="Talbi Abderrahmen"
           width={160}
           height={160}
           className="object-cover rounded-full"
@@ -36,7 +36,7 @@ export default function Home() {
       <p className="text-sm text-[#c5f82a] font-semibold mb-6">
         Chlef, Algeria
       </p>
-      <p className="text-sm text-white mb-8">"Front-end developer"</p>
+      <p className="text-sm text-white mb-8">{"Front-end developer"}</p>
 
       <div className="space-y-4">
         {socialLinks.map((link) => (
